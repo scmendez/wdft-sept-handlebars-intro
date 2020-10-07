@@ -1,5 +1,4 @@
-let students = [
-    {
+let students = [{
         name: 'Joe',
         city: 'Miami',
     },
@@ -17,8 +16,7 @@ let students = [
     }
 ]
 
-let instructors = [
-    {
+let instructors = [{
         name: 'Gerrard',
         city: 'Madrid',
     },
@@ -32,4 +30,7 @@ let instructors = [
     },
 ]
 
-module.exports = {students, instructors}
+module.exports = {
+    students,
+    instructors
+}

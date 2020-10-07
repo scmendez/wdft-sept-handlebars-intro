@@ -1,0 +1,17 @@
+<h1>Students</h1>
+
+{{!-- {{students}} --}}
+{{!-- ^ this will just show [object object], etc. --}}
+{{!-- go on the handlebars webpage to learn how to implement for loops --}}
+
+{{#each students }}
+{{!-- students is the name of the array we're iterating over --}}
+<div>
+    {{!-- for each student, we're going to render a div tag --}}
+    {{ this.name }} is from {{ this.city }}
+    {{!-- this, inside the for each, will hold each value within the array on each iteration --}}
+    {{!-- to access properties, we use dot notation --}}
+</div>
+{{/each}}
+{{!-- everything in handlebars has an opening and a closing section --}}
+{{!-- for loops in handlebars: #each (start) /each (end) --}}
